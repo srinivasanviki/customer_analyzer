@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Analyzer</title>
+  </head>
+  <body>
+      <h1>Analyze customer engagement</h1>
+      <form action="" method=post enctype=multipart/form-data >
+      	<!-- <input type="file" name=former.csv_file></input> -->
+      	{{form.csv_file}}
+      	<input type=submit></input>
+      </form>
+      <h4>Accuracy: {{accuracy}}%</h4>
+
+      <img src="{{plot}}">
+
+      <img src="{{pieUri}}">
+  </body>
+</html>
